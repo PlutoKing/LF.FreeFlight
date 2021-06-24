@@ -1,6 +1,7 @@
 --cpu=Cortex-M4.fp
 ".\objects\main.o"
 ".\objects\task.o"
+".\objects\ahrs.o"
 ".\objects\lflink.o"
 ".\objects\led.o"
 ".\objects\usart1.o"

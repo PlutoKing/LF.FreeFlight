@@ -52,9 +52,7 @@ u8 MPU9250_Init(void)
 	res = MPU9250_Read_Byte(AK8963_ADDR,WIA);			// 读取AK8963 ID，默认值为0x48
 	if (res == AK8963_ID)								// 器件ID正确
 	{
-		MPU9250_Write_Byte(AK8963_ADDR,RSV, 0x01);		// 复位AK8963
-		Delay_ms(50);
-		MPU9250_Write_Byte(AK8963_ADDR,CNTL, 0x01);		// 配置AK8963为单次测量
+		MPU9250_Write_Byte(AK8963_ADDR,CNTL, 0x11);		// 配置AK8963为单次测量
 	}
 	else
 		return 1;

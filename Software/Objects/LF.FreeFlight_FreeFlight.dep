@@ -1,5 +1,5 @@
 Dependencies for Project 'LF.FreeFlight', Target 'FreeFlight': (DO NOT MODIFY !)
-F (.\Project\main.c)(0x60D43B2F)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\STM32\core -I .\STM32\lib\inc -I .\STM32\sys -I .\Project -I .\Project\Algorithm -I .\Project\Hardware -I .\Project\Function -I .\Project\Service-I.\RTE\_FreeFlight-ID:\Applications\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Applications\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\Project\main.c)(0x60D43DAF)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\STM32\core -I .\STM32\lib\inc -I .\STM32\sys -I .\Project -I .\Project\Algorithm -I .\Project\Hardware -I .\Project\Function -I .\Project\Service-I.\RTE\_FreeFlight-ID:\Applications\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Applications\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\Project\Function\task.h)(0x60D43A68)
 I (.\STM32\sys\sys.h)(0x60CB62EE)
 I (.\STM32\sys\stm32f4xx.h)(0x60CB62EE)
@@ -85,7 +85,9 @@ I (.\Project\Hardware\led.h)(0x60D43A81)
 I (.\Project\Hardware\usart1.h)(0x60D43AA1)
 I (D:\Applications\MDK\ARM\ARMCC\include\string.h)(0x588B8344)
 I (.\Project\Service\lflink.h)(0x60D43AB7)
-F (.\Project\Service\lflink.c)(0x60D43B34)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\STM32\core -I .\STM32\lib\inc -I .\STM32\sys -I .\Project -I .\Project\Algorithm -I .\Project\Hardware -I .\Project\Function -I .\Project\Service-I.\RTE\_FreeFlight-ID:\Applications\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Applications\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\objects\lflink.o --omf_browse .\objects\lflink.crf --depend .\objects\lflink.d)
+F (.\Project\Algorithm\ahrs.c)(0x60D43E0C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\STM32\core -I .\STM32\lib\inc -I .\STM32\sys -I .\Project -I .\Project\Algorithm -I .\Project\Hardware -I .\Project\Function -I .\Project\Service-I.\RTE\_FreeFlight-ID:\Applications\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Applications\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\objects\ahrs.o --omf_browse .\objects\ahrs.crf --depend .\objects\ahrs.d)
+I (Project\Algorithm\ahrs.h)(0x60D43DAD)
+F (.\Project\Service\lflink.c)(0x60D43BCD)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\STM32\core -I .\STM32\lib\inc -I .\STM32\sys -I .\Project -I .\Project\Algorithm -I .\Project\Hardware -I .\Project\Function -I .\Project\Service-I.\RTE\_FreeFlight-ID:\Applications\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Applications\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\objects\lflink.o --omf_browse .\objects\lflink.crf --depend .\objects\lflink.d)
 I (Project\Service\lflink.h)(0x60D43AB7)
 I (.\STM32\sys\sys.h)(0x60CB62EE)
 I (.\STM32\sys\stm32f4xx.h)(0x60CB62EE)
@@ -238,7 +240,7 @@ I (.\STM32\lib\inc\stm32f4xx_dac.h)(0x60CB62EE)
 I (.\STM32\lib\inc\stm32f4xx_dcmi.h)(0x60CB62EE)
 I (.\STM32\lib\inc\stm32f4xx_fsmc.h)(0x60CB62EE)
 I (.\STM32\sys\delay.h)(0x60D43A64)
-F (.\Project\Hardware\mpu9250.c)(0x60D43B25)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\STM32\core -I .\STM32\lib\inc -I .\STM32\sys -I .\Project -I .\Project\Algorithm -I .\Project\Hardware -I .\Project\Function -I .\Project\Service-I.\RTE\_FreeFlight-ID:\Applications\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Applications\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\objects\mpu9250.o --omf_browse .\objects\mpu9250.crf --depend .\objects\mpu9250.d)
+F (.\Project\Hardware\mpu9250.c)(0x60D43CBF)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\STM32\core -I .\STM32\lib\inc -I .\STM32\sys -I .\Project -I .\Project\Algorithm -I .\Project\Hardware -I .\Project\Function -I .\Project\Service-I.\RTE\_FreeFlight-ID:\Applications\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Applications\MDK\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o .\objects\mpu9250.o --omf_browse .\objects\mpu9250.crf --depend .\objects\mpu9250.d)
 I (Project\Hardware\mpu9250.h)(0x60D43ACD)
 I (.\STM32\sys\sys.h)(0x60CB62EE)
 I (.\STM32\sys\stm32f4xx.h)(0x60CB62EE)
